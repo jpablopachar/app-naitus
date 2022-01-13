@@ -1,0 +1,62 @@
+.text-help {
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.mt-custom {
+  margin-top: 27px;
+}
+
+.mb-custom {
+  margin-bottom: 255px;
+}
+
+.custom-control-label {
+  margin-top: 9px;
+  margin-left: 11px;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  color: #000000;
+  border-color: #000000;
+  background-color: #000000;
+}
+
+.custom-control-label::before {
+  border-color: #000000;
+}
+
+.modal.fade .modal-dialog {
+  transform: translate3d(0, 53.8vh, 0);
+}
+
+.modal.in .modal-dialog {
+  transform: translate3d(0, 0, 0);
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.text-modal {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.modal-header {
+  padding: 1rem 2.25rem;
+}
+
+.modal-body {
+  padding: 0 2.25rem 11rem 2.25rem;
+}
+
+@media (max-width: 575.98px) {
+  .modal.fade .modal-dialog {
+    margin: 0;
+  }
+}

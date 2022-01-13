@@ -1,0 +1,65 @@
+.container-custom {
+  width: 100%;
+  padding-left: 37px;
+  padding-right: 37px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.btn-dark, .btn-dark:hover {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.btn-dark-outline, .btn-dark-outline:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.arrow {
+  font-weight: 400;
+  color: #7c7c7c;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35.2px;
+  margin-bottom: 23px;
+  margin-top: 29px;
+}
+
+.custom-control {
+  background-color: #f5f8ff;
+  margin-bottom: 5px;
+  height: 42px;
+  border-radius: 5px;
+}
+
+.progress {
+  height: 5px;
+}
+
+.progress-bar {
+  background-color: #dddddd;
+}

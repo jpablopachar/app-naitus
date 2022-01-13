@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container-custom">
+      <div class="row">
+        <div class="col-12 mt-40">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-auto">
+              <img src="../assets/images/Vector.png" alt="vector">
+              <a href="../index.html" class="arrow">Atrás</a>
+            </div>
+            <div class="col-5">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center">
+              <h3 class="title">Documento de identidad</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Tipo de documento</label>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked>
+                <label class="custom-control-label" for="customRadio1">Cédula</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio2">Cédula de residencia</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio3">Pasaporte</label>
+              </div>
+            </div>
+            <div class="form-group mb-custom">
+              <label>Nr. de identificación (sin guiones)</label>
+              <input type="text" class="form-control" placeholder="Ejemplo: 0012510930088B">
+            </div>
+            <div class="form-group text-center">
+              <span data-toggle="modal" data-target="#exampleModal"><strong class="text-help">¿Por qué me solicitan esta información?</strong></span>
+            </div>
+            <a href="./home.html" class="btn btn-dark btn-block mt-custom">Continuar</a>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="modal fade" id="ModalSlide" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-slideout" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Aenean augue magna, vestibulum vitae sapien at, consectetur tristique orci. Nam mauris velit, faucibus eget leo id, imperdiet gravida turpis. Proin euismod pellentesque tristique. Nullam convallis facilisis dictum. Etiam ultricies orci ut dictum vehicula. Quisque ut massa vestibulum, ultricies nisi a, dignissim leo.</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="text-modal mb-0">Aenean augue magna, vestibulum vitae sapien at, consectetur tristique orci. Nam mauris velit, faucibus eget leo id, imperdiet gravida turpis. Proin euismod pellentesque tristique. Nullam convallis facilisis dictum. Etiam ultricies orci ut dictum vehicula. Quisque ut massa vestibulum, ultricies nisi a, dignissim leo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/jquery.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/app.js"></script>
+  </body>
+</html>
